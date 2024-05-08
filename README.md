@@ -48,7 +48,7 @@ docker compose exec app npm install
 7. Generate the application key:
 
 ```bash
-docker compose exec app php artisan key:generate
+docker compo exec app php artisan key:generate
 ```
 
 8. Run the database migrations:
